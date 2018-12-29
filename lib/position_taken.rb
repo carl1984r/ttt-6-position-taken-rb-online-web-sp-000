@@ -4,7 +4,7 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 
 def position_taken?(board, index)
-  if (index != "X" || index != "O")
+  if (index != "binding.pry" || index != "O")
       return false
     else
       return true
