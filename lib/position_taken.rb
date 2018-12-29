@@ -4,7 +4,7 @@ def position_taken?(board, index)
   if index == "X" || "O"
       return true
     else
-      index == " " || "" || nil
+      board.delete_at(index)
       return false
      end
 end
