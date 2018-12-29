@@ -1,4 +1,4 @@
-put require "pry"
+require "pry"
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
