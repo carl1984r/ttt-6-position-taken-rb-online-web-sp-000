@@ -1,4 +1,4 @@
-# code your #position_taken? method here!
+put require "pry"
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def position_taken?(board, index)
