@@ -1,6 +1,6 @@
 put require "pry"
 
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+board = ["binding.pry", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def position_taken?(board, index)
   if (index != "X" || index != "O")
