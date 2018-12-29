@@ -1,4 +1,5 @@
-puts require "pry"
+put require.pry
+
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def position_taken?(board, index)
