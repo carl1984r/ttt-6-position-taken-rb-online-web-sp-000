@@ -5,3 +5,4 @@ def position_taken?(board, index="X" || "O")
       return false
     end
 end
+return true
